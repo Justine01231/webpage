@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://i1.sndcdn.com/avatars-000751643161-2qcdua-t1080x1080.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://preview.redd.it/request-sweetie-fox-v0-n3eweebkfcfe1.jpg?width=948&format=pjpg&auto=webp&s=b6f8a580d41ebf824e1c3ebb8fb6d176aff23928" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://starsunfolded.com/wp-content/uploads/2020/09/Lana-Rhoades.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkclU5YGeQI0o0wuVtoIJgxIt0u6MSzGW2gQ&s" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUdL2NMWHIhn6A8MgT0VWyTAh7LSFsqtsUg&s" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1i_9FeUiez2dke8ccAX9C3NOjCZOtmrGP1QUTxnL2HAjVsHVnabPLrAKCRShmg1mR_Sk&usqp=CAU" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://preview.redd.it/elle-lee-dont-google-her-at-work-lol-v0-07qhjmzbphqc1.jpg?width=1080&crop=smart&auto=webp&s=7c3aa792d66e729162f6d2c0d468f54338527458" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://www.famousbirthdays.com/faces/rider-rosie-image.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfS7Z23HX9ZDNscCj8qZ1nXZnbPgikb4XTw&s" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGBTqsz7uRiK__anUS-dq3Rj7jZcxjT8-Bcg&s" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+
+            </h1>
+            <div class="author">
+                <h2>Edneil</h2>
+                <p><b></b></p>
+                <p>
+
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+
+</body>
+</html>
